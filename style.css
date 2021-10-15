@@ -1,9 +1,25 @@
-.izq {
-    background-color: black;
-    color: white;
+body { 
+    font-family: Georgia; color: #444; 
+    
+    justify-content: space-between;
 }
 
-.der {
-    background-color:aquamarine;
-    color:black;
+.mainc{
+    border-style:solid;
+    align-self: center;
+    background-color: aliceblue;
+    padding-top: 4em;
+}
+
+.todo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:burlywood;
+}
+
+.flex-row{
+    margin-bottom: 2em; 
+    padding-bottom: 2em; 
+    border-bottom: 1px solid #ccc;
 }
